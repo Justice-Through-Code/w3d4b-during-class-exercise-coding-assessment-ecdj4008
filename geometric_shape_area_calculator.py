@@ -7,17 +7,28 @@ def main():
 
     # TODO: In terminal, print Welcome to the geometric shape area calculator!
     
+    print('Welcome to the geometric shape area calculator!')
+    
     # User Options
-    # Circle = 1
-    # Rectangle = 2
-    # Triangle = 3
+    Circle = 1
+    Rectangle = 2
+    Triangle = 3
     
     # TODO: Using one print statement, use string concatenation to print the options only 
     # as a single string (make sure to add a space between each option)
+   
+    print(Circle + '' + Rectangle + '' + Triangle)
 
     # TODO: In terminal, ask the user "Select a shape by entering 1, 2, or 3' and assign the input to a new variable named 'choice'.
+   
+    choice = input("1")
+    print('choice')
 
     # TODO: Convert the variable 'choice' to an integer data type.
+    choice = "1"
+    var_1 = int(choice)
+    print(type(var_1))
+
 
     # TODO: With one line of code, verify the variable 'choice' is indeed the data type integer, use conditional logic and print the output.  If converted correctly, the output in Terminal should read 'True'.
   
